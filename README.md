@@ -61,6 +61,7 @@ This repository contains a predictive analysis model for manufacturing operation
 To make predictions, you can use the `/predict` endpoint of the Flask application. Below is a sample input and output using PowerShell.
 
 #### Sample Input
+Using cURL in Terminal
 
 ```powershell
 Invoke-WebRequest -Uri "http://127.0.0.1:5000/predict" `
