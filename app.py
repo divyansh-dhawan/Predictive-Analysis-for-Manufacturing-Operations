@@ -6,8 +6,8 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the trained model
-model = joblib.load("logistic_regression_model.pkl")  # Save this earlier
-label_encoder = joblib.load("label_encoder.pkl")      # Save this earlier
+model = joblib.load("logistic_regression_model.pkl")  
+label_encoder = joblib.load("label_encoder.pkl")      
 
 @app.route('/predict', methods=['POST'])
 def predict():
