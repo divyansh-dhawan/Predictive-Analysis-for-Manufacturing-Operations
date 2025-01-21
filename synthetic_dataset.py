@@ -7,8 +7,8 @@ random.seed(42)
 np.random.seed(42)
 
 # Parameters for dataset
-num_records = 1000  # Total number of records to generate
-num_machines = 20  # Total number of unique machines
+num_records = 1000
+num_machines = 20
 
 # Generate Machine_IDs
 machine_ids = [f"M{str(i).zfill(3)}" for i in range(1, num_machines + 1)]
